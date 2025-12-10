@@ -1,0 +1,194 @@
+[
+  {
+    "id": "power-1",
+    "name": "Manley Mahi",
+    "price": 1499,
+    "description": "Class-leading tube amplifier with sweet harmonics.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Power Amplifier"
+  },
+  {
+    "id": "power-2",
+    "name": "Parasound A23+",
+    "price": 1699,
+    "description": "High-current solid-state power amplifier for detailed sound.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Power Amplifier"
+  },
+  {
+    "id": "power-3",
+    "name": "Rotel RB-1582 MKII",
+    "price": 1399,
+    "description": "Balanced, powerful amplifier great for hi-fi systems.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Power Amplifier"
+  },
+  {
+    "id": "cd-1",
+    "name": "Creek EVO CD Player",
+    "price": 799,
+    "description": "High-quality CD player offering detailed and warm playback.",
+    "image": "/product-images/aries_g21.png",
+    "category": "CD Player"
+  },
+  {
+    "id": "cd-2",
+    "name": "Marantz CD6007",
+    "price": 499,
+    "description": "Audiophile-grade CD player with rich sound stage.",
+    "image": "/product-images/aries_g21.png",
+    "category": "CD Player"
+  },
+  {
+    "id": "cd-3",
+    "name": "Yamaha CD-S300",
+    "price": 329,
+    "description": "Reliable entry-level CD player with clean playback.",
+    "image": "/product-images/aries_g21.png",
+    "category": "CD Player"
+  },
+  {
+    "id": "dvd-1",
+    "name": "Parasound DVD2000",
+    "price": 499,
+    "description": "Premium DVD player with high-quality video upscaling.",
+    "image": "/product-images/aries_g21.png",
+    "category": "DVD Player"
+  },
+  {
+    "id": "dvd-2",
+    "name": "Sony DVP-NS57P",
+    "price": 149,
+    "description": "Reliable, simple DVD player for everyday use.",
+    "image": "/product-images/aries_g21.png",
+    "category": "DVD Player"
+  },
+  {
+    "id": "dvd-3",
+    "name": "Panasonic DVD-S700",
+    "price": 199,
+    "description": "DVD player with improved processing and HDMI output.",
+    "image": "/product-images/aries_g21.png",
+    "category": "DVD Player"
+  },
+  {
+    "id": "preamp-1",
+    "name": "Creek OBH-22 Passive Preamp",
+    "price": 349,
+    "description": "Passive pre-amplifier with clean, transparent output.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Pre-Amplifier"
+  },
+  {
+    "id": "preamp-2",
+    "name": "Parasound P6",
+    "price": 1599,
+    "description": "Audiophile preamplifier with DAC and subwoofer control.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Pre-Amplifier"
+  },
+  {
+    "id": "preamp-3",
+    "name": "Rotel RC-1572 MKII",
+    "price": 1299,
+    "description": "High-end preamp with excellent clarity and balanced outputs.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Pre-Amplifier"
+  },
+  {
+    "id": "speaker-1",
+    "name": "Epos ES14N",
+    "price": 1299,
+    "description": "High-fidelity bookshelf speakers with rich midrange.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Speakers"
+  },
+  {
+    "id": "speaker-2",
+    "name": "Harbeth P3ESR",
+    "price": 2499,
+    "description": "Compact British monitors with stunning clarity.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Speakers"
+  },
+  {
+    "id": "speaker-3",
+    "name": "Bowers & Wilkins 606 S2",
+    "price": 899,
+    "description": "Dynamic speakers perfect for modern hi-fi setups.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Speakers"
+  },
+  {
+    "id": "integrated-1",
+    "name": "Creek Evolution 50A",
+    "price": 1099,
+    "description": "Integrated amplifier with excellent detail and dynamics.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Integrated Amplifier"
+  },
+  {
+    "id": "integrated-2",
+    "name": "Marantz PM6007",
+    "price": 699,
+    "description": "Versatile integrated amplifier with warm tonal balance.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Integrated Amplifier"
+  },
+  {
+    "id": "integrated-3",
+    "name": "Yamaha A-S701",
+    "price": 799,
+    "description": "High-power integrated amp with excellent control.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Integrated Amplifier"
+  },
+  {
+    "id": "record-1",
+    "name": "Pro-Ject Debut Carbon",
+    "price": 499,
+    "description": "Audiophile turntable featuring a carbon tonearm.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Record Player"
+  },
+  {
+    "id": "record-2",
+    "name": "Audio-Technica AT-LP120X",
+    "price": 299,
+    "description": "Direct-drive record player great for beginners and DJs.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Record Player"
+  },
+  {
+    "id": "record-3",
+    "name": "Rega Planar 1",
+    "price": 399,
+    "description": "Simple and clean-sounding turntable for new vinyl lovers.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Record Player"
+  },
+  {
+    "id": "tube-1",
+    "name": "Jolida JD502CRC",
+    "price": 1399,
+    "description": "Warm, powerful tube amp known for musicality.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Tube Amplifier"
+  },
+  {
+    "id": "tube-2",
+    "name": "Line Magnetic LM-211IA",
+    "price": 1899,
+    "description": "Classic tube sound with modern reliability.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Tube Amplifier"
+  },
+  {
+    "id": "tube-3",
+    "name": "PrimaLuna Evo 100",
+    "price": 2399,
+    "description": "Premium tube amplifier with auto-bias and rich tone.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Tube Amplifier"
+  }
+]
