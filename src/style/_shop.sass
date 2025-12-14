@@ -1,0 +1,175 @@
+@use "bass";
+
+.shop
+    background: #F4F4F2
+    padding: 30px
+
+    h2
+        font-size: 48px
+        font-weight: bold
+        color: #495464
+        margin-bottom: 40px
+
+.shop-main
+    display: flex
+    gap: 40px
+    align-items: flex-start
+
+    &__grid
+        display: flex
+        gap: 30px
+        flex-wrap: wrap
+        justify-content: center
+
+    &__card
+        width: 250px
+        background: #FFFFFF
+        padding: 30px 30px 15px 30px
+        display: flex
+        align-items: center
+        flex-direction: column
+        text-align: center
+
+        h3
+            font-size: 14px
+            font-weight: bold
+            margin-top: 10px
+            margin-bottom: 30px
+
+        p
+            font-size: 16px
+            font-weight: bold
+
+        button
+            background: #FF6900
+            border: none
+            padding: 10px 20px
+            color: #F4F4F2
+            font-size: 14px
+            margin-top: 15px
+
+    &__sidebar
+        width: 240px
+        padding: 20px
+        border-radius: 6px
+        background: #F4F4F2
+
+    &__sidebar-title
+        font-size: 20px
+        font-weight: bold
+        color: #495464
+
+/* ─────────────────────────────── */
+/* FILTER BOX */
+/* ─────────────────────────────── */
+.filter-box
+    background: #E8E8E8
+    padding: 15px
+    border-radius: 6px
+
+    &__header
+        display: flex
+        justify-content: space-between
+        font-weight: bold
+        cursor: pointer
+        padding-bottom: 10px
+        border-bottom: 1px solid #DCDCDC
+
+    &__arrow
+        width: 16px
+        height: 16px
+        object-fit: contain
+        transition: transform 0.2s
+
+    &__list
+        list-style: none
+        padding: 0
+        margin: 0
+        display: flex
+        flex-direction: column
+        gap: 10px
+
+        max-height: 0
+        overflow: hidden
+        transition: max-height 0.5s ease-in-out 
+
+
+        &.open
+            max-height: 200px 
+
+        li
+            display: flex
+            justify-content: space-between
+            align-items: center
+            cursor: pointer
+            font-size: 14px
+
+        &:hover
+            opacity: 0.7
+
+        &.selected
+            font-weight: bold
+
+/* ─────────────────────────────── */
+/* RADIO CIRCLE */
+/* ─────────────────────────────── */
+.filter-circle
+    width: 16px
+    height: 16px
+    border-radius: 50%
+    border: 2px solid #CFCFCF
+
+    &.checked
+        border-color: #00C853
+        background: #00C853
+
+
+    /* ─────────────────────────────── */
+/* SHOP HOVER DROPDOWN */
+/* ─────────────────────────────── */
+
+.nav-shop
+    position: relative
+
+    &:hover .nav-shop__dropdown
+        opacity: 1
+        visibility: visible
+        transform: translateY(0)
+
+    &__dropdown
+        position: absolute
+        top: 100%
+        left: 0
+        width: 260px
+        background: #FFFFFF
+        padding: 20px
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15)
+        border-radius: 6px
+
+        /* animation */
+        opacity: 0
+        visibility: hidden
+        transform: translateY(10px)
+        transition: all 0.3s ease
+
+        h4
+            font-size: 18px
+            font-weight: bold
+            margin-bottom: 15px
+            color: #495464
+
+        ul
+            list-style: none
+            padding: 0
+            margin: 0
+            display: flex
+            flex-direction: column
+            gap: 12px
+
+        li
+            font-size: 15px
+            color: #B08D57
+            cursor: pointer
+
+            &:hover
+                color: #FF6900
