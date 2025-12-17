@@ -18,8 +18,9 @@ const router = createBrowserRouter([
     element: <App />,
     children:[
       { path: "", element: <Home />, loader: productsLoader, hydrateFallbackElement: <p>Loading...</p> },
-      { path: "shop", element: <Shop /> },
-      { path: "productDetails/:id", element: <ProductDetails /> }
+      { path: "shop", element: <Shop />, loader: productsLoader, hydrateFallbackElement: <p>Loading...</p>  },
+      { path: "productDetails/:id", element: <ProductDetails />, loader: productsLoader, hydrateFallbackElement: <p>Loading...</p>  }
+      
     ]
   },
 ]);
