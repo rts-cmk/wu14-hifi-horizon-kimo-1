@@ -6,6 +6,7 @@ import App from './App.jsx'
 import Home from './pages/Home.jsx'
 import Shop from './pages/Shop.jsx'
 import ProductDetails from "./pages/Productdetails.jsx"
+import Cart from "./pages/Cart.jsx"
 
 import productsLoader from "./productsLoaders.js"
 
@@ -19,7 +20,9 @@ const router = createBrowserRouter([
     children:[
       { path: "", element: <Home />, loader: productsLoader, hydrateFallbackElement: <p>Loading...</p> },
       { path: "shop", element: <Shop />, loader: productsLoader, hydrateFallbackElement: <p>Loading...</p>  },
-      { path: "productDetails/:id", element: <ProductDetails />, loader: productsLoader, hydrateFallbackElement: <p>Loading...</p>  }
+      { path: "productDetails/:id", element: <ProductDetails />, loader: productsLoader, hydrateFallbackElement: <p>Loading...</p>  },
+      { path: "/cart", element: <Cart />, loader: productsLoader, hydrateFallbackElement: <p>Loading...</p>}
+
       
     ]
   },
