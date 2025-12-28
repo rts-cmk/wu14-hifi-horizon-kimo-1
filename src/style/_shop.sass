@@ -1,44 +1,68 @@
-@use "bass";
+@use "bass"
 
 .shop
     background: #F4F4F2
-    padding: 30px
-
-    h2
+    padding: 40px 30px 100px 30px
+    h1
         font-size: 48px
-        font-weight: bold
+        font-weight: 600
         color: #495464
         margin-bottom: 40px
 
 .shop-main
     display: flex
-    gap: 40px
+    gap: 70px
     align-items: flex-start
+    .compare
+        position: absolute
+        top: 15px
+        right: 15px
+        display: flex
+        align-items: center
+        gap: 10px
+        font-size: 15px
+        cursor: pointer
 
     &__grid
         display: flex
         gap: 30px
         flex-wrap: wrap
         justify-content: center
+        position: relative
+        z-index: 1
+    
+    &__Link
+        color: black
+        display: flex
+        flex-direction: column
+        gap: 10px
+
+
 
     &__card
-        width: 250px
+        width: 270px
         background: #FFFFFF
-        padding: 30px 30px 15px 30px
+        padding: 30px 15px 15px 15px
         display: flex
         align-items: center
         flex-direction: column
         text-align: center
+        gap: 10px
+        box-shadow: 0px 4px 10px 3px rgb(0 0 0 / 10%)
+        position: relative
+
+        
 
         h3
-            font-size: 14px
-            font-weight: bold
-            margin-top: 10px
-            margin-bottom: 30px
+            font-size: 16px
+            font-weight: 200
+            margin-top: 40px
 
         p
             font-size: 16px
             font-weight: bold
+            margin-top: 7px
+
 
         button
             background: #FF6900
@@ -47,55 +71,76 @@
             color: #F4F4F2
             font-size: 14px
             margin-top: 15px
+            cursor: pointer
+            box-shadow: 0px 2px 3px rgb(0 0 0 / 21%)
+            &:hover
+                background: darken(#FF6900, 2%)
+                transform: translateY(-1px)
+
+
+
+    &__cardImg
+        padding-top: 35px
+
 
     &__sidebar
+        gap: 15px
         width: 240px
-        padding: 20px
-        border-radius: 6px
+        display: flex
         background: #F4F4F2
+        flex-direction: column
+        position: relative
+        z-index: 2
+
+        h2
+            font-size: 20px
+            margin-bottom: 10px
 
     &__sidebar-title
         font-size: 20px
         font-weight: bold
         color: #495464
 
+
+
+
 /* ─────────────────────────────── */
 /* FILTER BOX */
 /* ─────────────────────────────── */
 .filter-box
     background: #E8E8E8
-    padding: 15px
-    border-radius: 6px
+    width: 270px
 
     &__header
         display: flex
-        justify-content: space-between
-        font-weight: bold
         cursor: pointer
-        padding-bottom: 10px
-        border-bottom: 1px solid #DCDCDC
+        align-items: center
+        justify-content: space-between
+        padding: 5px 10px
+        box-shadow: 0 2px 6px rgb(0 0 0 / 8%)
+        
 
     &__arrow
-        width: 16px
-        height: 16px
-        object-fit: contain
+        width: 23px
         transition: transform 0.2s
 
     &__list
         list-style: none
-        padding: 0
-        margin: 0
         display: flex
         flex-direction: column
         gap: 10px
 
         max-height: 0
         overflow: hidden
-        transition: max-height 0.5s ease-in-out 
+        padding: 0 10px
+        transition: max-height 0.4s ease, padding 0.4s ease
+
 
 
         &.open
             max-height: 200px 
+            padding: 10px
+
 
         li
             display: flex
@@ -104,27 +149,23 @@
             cursor: pointer
             font-size: 14px
 
-        &:hover
-            opacity: 0.7
 
         &.selected
             font-weight: bold
 
-/* ─────────────────────────────── */
 /* RADIO CIRCLE */
-/* ─────────────────────────────── */
 .filter-circle
     width: 16px
     height: 16px
     border-radius: 50%
-    border: 2px solid #CFCFCF
+    background: #FFFFFF
+
 
     &.checked
-        border-color: #00C853
-        background: #00C853
+        background: #008000
 
 
-    /* ─────────────────────────────── */
+/* ─────────────────────────────── */
 /* SHOP HOVER DROPDOWN */
 /* ─────────────────────────────── */
 
@@ -145,6 +186,8 @@
         padding: 20px
         box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15)
         border-radius: 6px
+        z-index: 3
+
 
         /* animation */
         opacity: 0
@@ -166,10 +209,61 @@
             flex-direction: column
             gap: 12px
 
-        li
+        a
             font-size: 15px
             color: #B08D57
             cursor: pointer
 
             &:hover
                 color: #FF6900
+
+
+
+
+.card-bottom
+    display: flex
+    align-items: center
+    gap: 25px
+
+
+
+  
+.stock-status 
+  display: flex
+  align-items: center
+  gap: 8px
+
+  font-size: 14px
+  font-weight: 500
+  color: #1a1a1a
+  margin-top: 10px
+
+  &__dot 
+    width: 13px
+    height: 13px
+    border-radius: 50%
+    flex-shrink: 0
+  
+
+  /* STATES */
+  &--in 
+    .stock-status__dot 
+      background-color: #008000 // green
+    
+  
+
+  &--few 
+    .stock-status__dot 
+      background-color: #FFA500 // yellow
+    
+  
+
+  &--out 
+    color: #888
+
+    .stock-status__dot 
+      background-color: #FF0000 // red
+    
+  
+
+

@@ -1,5 +1,5 @@
 export default async function productsLoader() {
-  const res = await fetch('/db.json')
-  const products = await res.json()
+  const response = await fetch("http://localhost:3000/products")
+  const products = await response.json()
   return products
 }

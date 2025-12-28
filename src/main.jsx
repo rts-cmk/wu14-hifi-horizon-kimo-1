@@ -10,7 +10,7 @@ import Cart from "./pages/Cart.jsx"
 
 import productsLoader from "./productsLoaders.js"
 
-import "./style/main.sass"
+import "./style/main.sass" 
 
 
 const router = createBrowserRouter([

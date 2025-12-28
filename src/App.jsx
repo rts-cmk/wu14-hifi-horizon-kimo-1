@@ -1,6 +1,9 @@
 import { NavLink, Outlet } from "react-router"
 
+
+
 export default function App() {
+
   return (
     <>
       <header>
@@ -18,16 +21,34 @@ export default function App() {
 
             <div className="nav-shop__dropdown">
               <h4>Browse Categories</h4>
+
               <ul>
-                <li>CD Players</li>
-                <li>DVD Players</li>
-                <li>Preamps</li>
-                <li>Speakers</li>
-                <li>Turntables</li>
-                <li>Integrated Amplifiers</li>
-                <li>Power Amplifiers</li>
-                <li>Tube Amplifiers</li>
+                <li>
+                  <NavLink to="/shop?category=CD Player">CD Players</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/shop?category=DVD Player">DVD Players</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/shop?category=Pre-Amplifier">Preamps</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/shop?category=Speakers">Speakers</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/shop?category=Speakers">Turntables</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/shop?category=Speakers">Integrated Amplifiers</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/shop?category=Power Amplifier">Power Amplifiers</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/shop?category=Power Amplifier">Tube Amplifiers</NavLink>
+                </li>
               </ul>
+
             </div>
           </div>
 
@@ -44,7 +65,9 @@ export default function App() {
 
           <div className="right-header__left-icons">
             <img src="/images/icons/profile.png" alt="" />
-            <img src="/images/icons/cart.png" alt="" />
+            <NavLink to="/cart">
+              <img src="/images/icons/cart.png" alt="" />
+            </NavLink>
           </div>
         </div>
       </header>
@@ -53,68 +76,68 @@ export default function App() {
         <Outlet />
       </main>
 
-<footer>
-  <div className="footer_top">
-    <div className="footer_col">
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/shop">Shop</NavLink>
-      <NavLink to="/">About Us</NavLink>
-    </div>
+      <footer>
+        <div className="footer_top">
+          <div className="footer_col">
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/shop">Shop</NavLink>
+            <NavLink to="/">About Us</NavLink>
+          </div>
 
-    <div className="footer_col">
-      <a href="#">Returns & Refunds</a>
-      <a href="#">Delivery</a>
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms & Conditions</a>
-    </div>
+          <div className="footer_col">
+            <a href="#">Returns & Refunds</a>
+            <a href="#">Delivery</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+          </div>
 
-    <div className="footer_col contact">
-      <p>Contact</p>
+          <div className="footer_col contact">
+            <p>Contact</p>
 
-      <strong>
-        2 Joppa Rd, Edinburgh, EH15 2EU
-        <div className="phoneNr">
-          <img src="/images/icons/phone.png" />
-          0131 556 7901
+            <strong>
+              2 Joppa Rd, Edinburgh, EH15 2EU
+              <div className="phoneNr">
+                <img src="/images/icons/phone.png" />
+                0131 556 7901
+              </div>
+
+              <br />
+
+              44 Cow Wynd, Falkirk, Central Region, FK1 1PU
+              <div className="phoneNr">
+                <img src="/images/icons/phone.png" />
+                01324 629 011
+              </div>
+            </strong>
+
+            <div className="socials">
+              <img src="/images/icons/facebook.png" alt="" />
+              <img src="/images/icons/twiter.png" alt="" />
+              <img src="/images/icons/intagram.png" alt="" />
+              <img src="/images/icons/youtube.png" alt="" />
+            </div>
+          </div>
         </div>
 
-        <br />
+        <hr />
 
-        44 Cow Wynd, Falkirk, Central Region, FK1 1PU
-        <div className="phoneNr">
-          <img src="/images/icons/phone.png" />
-          01324 629 011
+        <div className="footer_bottom">
+          <div className="payment">
+            <img src="/images/icons/stripe.png" alt="" />
+            <img src="/images/icons/visa.png" alt="" />
+            <img src="/images/icons/mastercard.png" alt="" />
+          </div>
+
+          <div className="footer_bottom__text">
+            <p className="legal">
+              HiFi Horizon (Edinburgh) Ltd is registered in Scotland. No: SC044928.
+              Registered office: 2 Joppa Rd, Edinburgh EH15 2EU
+            </p>
+
+            <p className="design">Designed by WU07 :)</p>
+          </div>
         </div>
-      </strong>
-
-      <div className="socials">
-        <img src="/images/icons/facebook.png" alt="" />
-        <img src="/images/icons/twiter.png" alt="" />
-        <img src="/images/icons/intagram.png" alt="" />
-        <img src="public/images/icons/youtube.png" alt="" />
-      </div>
-    </div>
-  </div>
-
-  <hr />
-
-  <div className="footer_bottom">
-    <div className="payment">
-      <img src="/images/icons/stripe.png" alt="" />
-      <img src="/images/icons/visa.png" alt="" />
-      <img src="/images/icons/mastercard.png" alt="" />
-    </div>
-
-    <div className="footer_bottom__text">
-      <p className="legal">
-        HiFi Horizon (Edinburgh) Ltd is registered in Scotland. No: SC044928.
-        Registered office: 2 Joppa Rd, Edinburgh EH15 2EU
-      </p>
-
-      <p className="design">Designed by WU07 :)</p>
-    </div>
-  </div>
-</footer>
+      </footer>
     </>
   )
 }

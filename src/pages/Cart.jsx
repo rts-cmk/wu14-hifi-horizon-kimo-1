@@ -22,7 +22,7 @@ export default function Cart() {
     }
 
     // Remove product
-    function remove(id) {
+    function remove(id) { 
         const updated = cart.filter(product => product.id !== id)
         setCart(updated)
     }
