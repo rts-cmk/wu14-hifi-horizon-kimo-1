@@ -1,0 +1,156 @@
+[
+  {
+    "id": "power-1",
+    "name": "Manley Mahi",
+    "price": 4799,
+    "brand": "Steelseries",
+    "color": "Black, Grey",
+    "description": "Class-leading tube amplifier with sweet harmonics. Phasellus venenatis feugiat neque, vitae condimentum urna tincidunt nec. Donec velit risus, congue eget tortor eget, rhoncus gravida ante. Vestibulum ullamcorper rutrum ligula semper pulvinar. Proin ante risus, ornare sit amet mattis sed, blandit vitae massa. Integer ut dapibus tellus. Curabitur fringilla lobortis nunc, finibus ullamcorper augue lacinia hendrerit. Morbi ac eros sagittis, efficitur metus id, auctor ex. Duis convallis nec felis eget semper. Sed tempor mauris sapien, eget pharetra nulla molestie nec. Sed quis scelerisque nisi, pulvinar sodales eros. Aenean vel consectetur est. Donec id tortor at lacus vulputate vulputate. Quisque nec ultrices velit, pretium egestas ex. Sed felis diam, ultrices non mollis ac, consequat .",
+    "image": "/product-images/aries_g21.png",
+    "category": "Power Amplifier"
+  },
+  {
+    "id": "power-2",
+    "name": "Parasound A23+",
+    "price": 1699,
+    "brand": "Logitech",
+    "color": "Grey",
+    "description": "High-current solid-state power amplifier for detailed sound. Phasellus venenatis feugiat neque, vitae condimentum urna tincidunt nec. Donec velit risus, congue eget tortor eget, rhoncus gravida ante. Vestibulum ullamcorper rutrum ligula semper pulvinar. Proin ante risus, ornare sit amet mattis sed, blandit vitae massa. Integer ut dapibus tellus. Curabitur fringilla lobortis nunc, finibus ullamcorper augue lacinia hendrerit. Morbi ac eros sagittis, efficitur metus id, auctor ex. Duis convallis nec felis eget semper. Sed tempor mauris sapien, eget pharetra nulla molestie nec. Sed quis scelerisque nisi, pulvinar sodales eros. Aenean vel consectetur est. Donec id tortor at lacus vulputate vulputate. Quisque nec ultrices velit, pretium egestas ex. Sed felis diam, ultrices non mollis ac, consequat .",
+    "image": "/product-images/aries_g21.png",
+    "category": "Power Amplifier"
+  },
+  {
+    "id": "power-3",
+    "name": "Rotel RB-1582 MKII",
+    "price": 1399,
+    "brand": "Apple",
+    "color": "White",
+    "description": "Balanced, powerful amplifier great for hi-fi systems. Phasellus venenatis feugiat neque, vitae condimentum urna tincidunt nec. Donec velit risus, congue eget tortor eget, rhoncus gravida ante. Vestibulum ullamcorper rutrum ligula semper pulvinar. Proin ante risus, ornare sit amet mattis sed, blandit vitae massa. Integer ut dapibus tellus. Curabitur fringilla lobortis nunc, finibus ullamcorper augue lacinia hendrerit. Morbi ac eros sagittis, efficitur metus id, auctor ex. Duis convallis nec felis eget semper. Sed tempor mauris sapien, eget pharetra nulla molestie nec. Sed quis scelerisque nisi, pulvinar sodales eros. Aenean vel consectetur est. Donec id tortor at lacus vulputate vulputate. Quisque nec ultrices velit, pretium egestas ex. Sed felis diam, ultrices non mollis ac, consequat .",
+    "image": "/product-images/aries_g21.png",
+    "category": "Power Amplifier"
+  },
+
+  {
+    "id": "cd-1",
+    "name": "Creek EVO CD Player",
+    "price": 799,
+    "brand": "Logitech",
+    "color": "Black",
+    "description": "High-quality CD player offering detailed and warm playback. Phasellus venenatis feugiat neque, vitae condimentum urna tincidunt nec. Donec velit risus, congue eget tortor eget, rhoncus gravida ante. Vestibulum ullamcorper rutrum ligula semper pulvinar. Proin ante risus, ornare sit amet mattis sed, blandit vitae massa. Integer ut dapibus tellus. Curabitur fringilla lobortis nunc, finibus ullamcorper augue lacinia hendrerit. Morbi ac eros sagittis, efficitur metus id, auctor ex. Duis convallis nec felis eget semper. Sed tempor mauris sapien, eget pharetra nulla molestie nec. Sed quis scelerisque nisi, pulvinar sodales eros. Aenean vel consectetur est. Donec id tortor at lacus vulputate vulputate. Quisque nec ultrices velit, pretium egestas ex. Sed felis diam, ultrices non mollis ac, consequat .",
+    "image": "/product-images/aries_g21.png",
+    "category": "CD Player"
+  },
+  {
+    "id": "cd-2",
+    "name": "Marantz CD6007",
+    "price": 499,
+    "brand": "Steelseries",
+    "color": "Grey",
+    "description": "Audiophile-grade CD player with rich sound stage. Phasellus venenatis feugiat neque, vitae condimentum urna tincidunt nec. Donec velit risus, congue eget tortor eget, rhoncus gravida ante. Vestibulum ullamcorper rutrum ligula semper pulvinar. Proin ante risus, ornare sit amet mattis sed, blandit vitae massa. Integer ut dapibus tellus. Curabitur fringilla lobortis nunc, finibus ullamcorper augue lacinia hendrerit. Morbi ac eros sagittis, efficitur metus id, auctor ex. Duis convallis nec felis eget semper. Sed tempor mauris sapien, eget pharetra nulla molestie nec. Sed quis scelerisque nisi, pulvinar sodales eros. Aenean vel consectetur est. Donec id tortor at lacus vulputate vulputate. Quisque nec ultrices velit, pretium egestas ex. Sed felis diam, ultrices non mollis ac, consequat .",
+    "image": "/product-images/aries_g21.png",
+    "category": "CD Player"
+  },
+  {
+    "id": "cd-3",
+    "name": "Yamaha CD-S300",
+    "price": 329,
+    "brand": "Logitech",
+    "color": "White",
+    "description": "Reliable entry-level CD player with clean playback. Phasellus venenatis feugiat neque, vitae condimentum urna tincidunt nec. Donec velit risus, congue eget tortor eget, rhoncus gravida ante. Vestibulum ullamcorper rutrum ligula semper pulvinar. Proin ante risus, ornare sit amet mattis sed, blandit vitae massa. Integer ut dapibus tellus. Curabitur fringilla lobortis nunc, finibus ullamcorper augue lacinia hendrerit. Morbi ac eros sagittis, efficitur metus id, auctor ex. Duis convallis nec felis eget semper. Sed tempor mauris sapien, eget pharetra nulla molestie nec. Sed quis scelerisque nisi, pulvinar sodales eros. Aenean vel consectetur est. Donec id tortor at lacus vulputate vulputate. Quisque nec ultrices velit, pretium egestas ex. Sed felis diam, ultrices non mollis ac, consequat .",
+    "image": "/product-images/aries_g21.png",
+    "category": "CD Player"
+  },
+
+  {
+    "id": "dvd-1",
+    "name": "Parasound DVD2000",
+    "price": 499,
+    "brand": "Apple",
+    "color": "Grey",
+    "description": "Premium DVD player with high-quality video upscaling. Phasellus venenatis feugiat neque, vitae condimentum urna tincidunt nec. Donec velit risus, congue eget tortor eget, rhoncus gravida ante. Vestibulum ullamcorper rutrum ligula semper pulvinar. Proin ante risus, ornare sit amet mattis sed, blandit vitae massa. Integer ut dapibus tellus. Curabitur fringilla lobortis nunc, finibus ullamcorper augue lacinia hendrerit. Morbi ac eros sagittis, efficitur metus id, auctor ex. Duis convallis nec felis eget semper. Sed tempor mauris sapien, eget pharetra nulla molestie nec. Sed quis scelerisque nisi, pulvinar sodales eros. Aenean vel consectetur est. Donec id tortor at lacus vulputate vulputate. Quisque nec ultrices velit, pretium egestas ex. Sed felis diam, ultrices non mollis ac, consequat .",
+    "image": "/product-images/aries_g21.png",
+    "category": "DVD Player"
+  },
+  {
+    "id": "dvd-2",
+    "name": "Sony DVP-NS57P",
+    "price": 149,
+    "brand": "Steelseries",
+    "color": "Black",
+    "description": "Reliable, simple DVD player for everyday use. Phasellus venenatis feugiat neque, vitae condimentum urna tincidunt nec. Donec velit risus, congue eget tortor eget, rhoncus gravida ante. Vestibulum ullamcorper rutrum ligula semper pulvinar. Proin ante risus, ornare sit amet mattis sed, blandit vitae massa. Integer ut dapibus tellus. Curabitur fringilla lobortis nunc, finibus ullamcorper augue lacinia hendrerit. Morbi ac eros sagittis, efficitur metus id, auctor ex. Duis convallis nec felis eget semper. Sed tempor mauris sapien, eget pharetra nulla molestie nec. Sed quis scelerisque nisi, pulvinar sodales eros. Aenean vel consectetur est. Donec id tortor at lacus vulputate vulputate. Quisque nec ultrices velit, pretium egestas ex. Sed felis diam, ultrices non mollis ac, consequat .",
+    "image": "/product-images/aries_g21.png",
+    "category": "DVD Player"
+  },
+  {
+    "id": "dvd-3",
+    "name": "Panasonic DVD-S700",
+    "price": 199,
+    "brand": "Logitech",
+    "color": "White",
+    "description": "DVD player with improved processing and HDMI output. Phasellus venenatis feugiat neque, vitae condimentum urna tincidunt nec. Donec velit risus, congue eget tortor eget, rhoncus gravida ante. Vestibulum ullamcorper rutrum ligula semper pulvinar. Proin ante risus, ornare sit amet mattis sed, blandit vitae massa. Integer ut dapibus tellus. Curabitur fringilla lobortis nunc, finibus ullamcorper augue lacinia hendrerit. Morbi ac eros sagittis, efficitur metus id, auctor ex. Duis convallis nec felis eget semper. Sed tempor mauris sapien, eget pharetra nulla molestie nec. Sed quis scelerisque nisi, pulvinar sodales eros. Aenean vel consectetur est. Donec id tortor at lacus vulputate vulputate. Quisque nec ultrices velit, pretium egestas ex. Sed felis diam, ultrices non mollis ac, consequat .",
+    "image": "/product-images/aries_g21.png",
+    "category": "DVD Player"
+  },
+
+  {
+    "id": "preamp-1",
+    "name": "Creek OBH-22 Passive Preamp",
+    "price": 349,
+    "brand": "Apple",
+    "color": "Black",
+    "description": "Passive pre-amplifier with clean, transparent output. Phasellus venenatis feugiat neque, vitae condimentum urna tincidunt nec. Donec velit risus, congue eget tortor eget, rhoncus gravida ante. Vestibulum ullamcorper rutrum ligula semper pulvinar. Proin ante risus, ornare sit amet mattis sed, blandit vitae massa. Integer ut dapibus tellus. Curabitur fringilla lobortis nunc, finibus ullamcorper augue lacinia hendrerit. Morbi ac eros sagittis, efficitur metus id, auctor ex. Duis convallis nec felis eget semper. Sed tempor mauris sapien, eget pharetra nulla molestie nec. Sed quis scelerisque nisi, pulvinar sodales eros. Aenean vel consectetur est. Donec id tortor at lacus vulputate vulputate. Quisque nec ultrices velit, pretium egestas ex. Sed felis diam, ultrices non mollis ac, consequat .",
+    "image": "/product-images/aries_g21.png",
+    "category": "Pre-Amplifier"
+  },
+  {
+    "id": "preamp-2",
+    "name": "Parasound P6",
+    "price": 1599,
+    "brand": "Steelseries",
+    "color": "Grey",
+    "description": "Audiophile preamplifier with DAC and subwoofer control. Phasellus venenatis feugiat neque, vitae condimentum urna tincidunt nec. Donec velit risus, congue eget tortor eget, rhoncus gravida ante. Vestibulum ullamcorper rutrum ligula semper pulvinar. Proin ante risus, ornare sit amet mattis sed, blandit vitae massa. Integer ut dapibus tellus. Curabitur fringilla lobortis nunc, finibus ullamcorper augue lacinia hendrerit. Morbi ac eros sagittis, efficitur metus id, auctor ex. Duis convallis nec felis eget semper. Sed tempor mauris sapien, eget pharetra nulla molestie nec. Sed quis scelerisque nisi, pulvinar sodales eros. Aenean vel consectetur est. Donec id tortor at lacus vulputate vulputate. Quisque nec ultrices velit, pretium egestas ex. Sed felis diam, ultrices non mollis ac, consequat .",
+    "image": "/product-images/aries_g21.png",
+    "category": "Pre-Amplifier"
+  },
+  {
+    "id": "preamp-3",
+    "name": "Rotel RC-1572 MKII",
+    "price": 1299,
+    "brand": "Logitech",
+    "color": "White",
+    "description": "High-end preamp with excellent clarity and balanced outputs. Phasellus venenatis feugiat neque, vitae condimentum urna tincidunt nec. Donec velit risus, congue eget tortor eget, rhoncus gravida ante. Vestibulum ullamcorper rutrum ligula semper pulvinar. Proin ante risus, ornare sit amet mattis sed, blandit vitae massa. Integer ut dapibus tellus. Curabitur fringilla lobortis nunc, finibus ullamcorper augue lacinia hendrerit. Morbi ac eros sagittis, efficitur metus id, auctor ex. Duis convallis nec felis eget semper. Sed tempor mauris sapien, eget pharetra nulla molestie nec. Sed quis scelerisque nisi, pulvinar sodales eros. Aenean vel consectetur est. Donec id tortor at lacus vulputate vulputate. Quisque nec ultrices velit, pretium egestas ex. Sed felis diam, ultrices non mollis ac, consequat .",
+    "image": "/product-images/aries_g21.png",
+    "category": "Pre-Amplifier"
+  },
+
+  {
+    "id": "speaker-1",
+    "name": "Epos ES14N",
+    "price": 1299,
+    "brand": "Apple",
+    "color": "Grey",
+    "description": "High-fidelity bookshelf speakers with rich midrange. Phasellus venenatis feugiat neque, vitae condimentum urna tincidunt nec. Donec velit risus, congue eget tortor eget, rhoncus gravida ante. Vestibulum ullamcorper rutrum ligula semper pulvinar. Proin ante risus, ornare sit amet mattis sed, blandit vitae massa. Integer ut dapibus tellus. Curabitur fringilla lobortis nunc, finibus ullamcorper augue lacinia hendrerit. Morbi ac eros sagittis, efficitur metus id, auctor ex. Duis convallis nec felis eget semper. Sed tempor mauris sapien, eget pharetra nulla molestie nec. Sed quis scelerisque nisi, pulvinar sodales eros. Aenean vel consectetur est. Donec id tortor at lacus vulputate vulputate. Quisque nec ultrices velit, pretium egestas ex. Sed felis diam, ultrices non mollis ac, consequat .",
+    "image": "/product-images/aries_g21.png",
+    "category": "Speakers"
+  },
+  {
+    "id": "speaker-2",
+    "name": "Harbeth P3ESR",
+    "price": 2499,
+    "brand": "Steelseries",
+    "color": "White",
+    "description": "Compact British monitors with stunning clarity. Phasellus venenatis feugiat neque, vitae condimentum urna tincidunt nec. Donec velit risus, congue eget tortor eget, rhoncus gravida ante. Vestibulum ullamcorper rutrum ligula semper pulvinar. Proin ante risus, ornare sit amet mattis sed, blandit vitae massa. Integer ut dapibus tellus. Curabitur fringilla lobortis nunc, finibus ullamcorper augue lacinia hendrerit. Morbi ac eros sagittis, efficitur metus id, auctor ex. Duis convallis nec felis eget semper. Sed tempor mauris sapien, eget pharetra nulla molestie nec. Sed quis scelerisque nisi, pulvinar sodales eros. Aenean vel consectetur est. Donec id tortor at lacus vulputate vulputate. Quisque nec ultrices velit, pretium egestas ex. Sed felis diam, ultrices non mollis ac, consequat .",
+    "image": "/product-images/aries_g21.png",
+    "category": "Speakers"
+  },
+  {
+    "id": "speaker-3",
+    "name": "Bowers & Wilkins 606 S2",
+    "price": 899,
+    "brand": "Logitech",
+    "color": "Black",
+    "description": "Dynamic speakers perfect for modern hi-fi setups. Phasellus venenatis feugiat neque, vitae condimentum urna tincidunt nec. Donec velit risus, congue eget tortor eget, rhoncus gravida ante. Vestibulum ullamcorper rutrum ligula semper pulvinar. Proin ante risus, ornare sit amet mattis sed, blandit vitae massa. Integer ut dapibus tellus. Curabitur fringilla lobortis nunc, finibus ullamcorper augue lacinia hendrerit. Morbi ac eros sagittis, efficitur metus id, auctor ex. Duis convallis nec felis eget semper. Sed tempor mauris sapien, eget pharetra nulla molestie nec. Sed quis scelerisque nisi, pulvinar sodales eros. Aenean vel consectetur est. Donec id tortor at lacus vulputate vulputate. Quisque nec ultrices velit, pretium egestas ex. Sed felis diam, ultrices non mollis ac, consequat.",
+    "image": "/product-images/aries_g21.png",
+    "category": "Speakers"
+  }
+]

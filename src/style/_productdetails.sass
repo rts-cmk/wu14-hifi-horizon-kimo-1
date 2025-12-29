@@ -1,0 +1,265 @@
+.product-details
+    background: #F4F4F2
+    padding: 40px 40px 100px 40px
+    
+    h1
+        font-size: 48px
+        font-weight: 600
+        color: #495464
+        margin-bottom: 40px
+
+
+    &__content
+        display: flex
+        align-items: center
+        gap: 30px
+
+
+    &__image
+        width: 100%
+        margin-left: 50px
+        flex: 1
+
+        img
+            width: 300px
+            height: auto
+            display: block
+
+.product-info
+    flex: 2
+    p
+        margin: 20px 0px
+
+    &__button
+        background: #FF6900
+        border: none
+        padding: 10px 85px
+        color: #F4F4F2
+        font-size: 12px
+        margin-top: 15px
+        cursor: pointer
+        &:hover
+            background: darken(#FF6900, 2%)
+            transform: translateY(-1px)
+
+    
+
+    &__price
+        font-size: 24px
+        font-weight: 600
+    
+    &__bottom
+        display: flex
+        justify-content: space-between
+        align-items: flex-end
+
+
+
+
+.product-quantity
+    display: flex
+    align-items: center
+    gap: 15px
+    button
+        border: none
+        font-size: 30px
+        background: #F4F4F2
+        cursor: pointer
+
+
+    &__number
+        font-size: 14px
+        font-weight: 600
+
+    
+.compare
+    position: absolute
+    top: 150px
+    right: 50px
+    display: flex
+    align-items: center
+    gap: 10px
+    font-size: 15px
+    cursor: pointer
+    
+.product-colors 
+    &__list 
+        display: flex
+        gap: 28px
+        padding: 0
+        margin: 16px 0
+        list-style: none
+
+
+    &__item 
+        display: flex
+        flex-direction: column
+        align-items: center
+        cursor: pointer
+        gap: 6px
+
+
+.color-dot 
+    width: 26px
+    height: 26px
+    border-radius: 50%
+    border: 2px solid transparent
+
+
+.product-colors__item.active .color-dot 
+    border-color: #000
+
+
+.color-dot.black 
+    background-color: #000
+
+
+.color-dot.grey 
+    background-color: #cfcfcf
+
+
+.color-dot.white 
+    background-color: #ffffff
+    border: 1px solid #ccc
+
+
+.color-label 
+    font-size: 14px
+
+
+
+
+
+
+.product-spec
+    background: #F4F4F2
+    padding: 100px 40px 150px 40px
+    h2
+        font-size: 24px
+        font-weight: bold
+        margin-bottom: 40px
+
+
+.product-spec__table
+    max-width: 500px
+    margin-left: 40px
+
+
+
+.product-spec__row
+    display: grid
+    grid-template-columns: 1fr 1fr
+    padding: 12px 20px
+    font-size: 14px
+    justify-items: center
+
+    &:nth-child(odd)
+        background: #EDEDED
+
+    &:nth-child(even)
+        background: #F7F7F7
+
+
+.product-spec__title
+    font-weight: 600
+    color: #000
+
+
+.product-spec__value
+    color: #000
+
+
+
+
+
+.compare-bar
+    background: #E8E8E8
+    padding: 15px
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+
+    &__product
+        background: #FFFFFF
+        display: flex
+        align-items: center
+        gap: 40px
+        padding: 30px 15px
+        position: relative
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15)
+
+        img
+            width: 120px
+
+    &__close
+        position: absolute
+        top: 0px
+        right: 8px
+        background: none
+        border: none
+        font-size: 30px
+        cursor: pointer
+        color: #E8E8E8
+
+    &__info
+        display: flex
+        flex-direction: column
+        gap: 5px
+
+        p
+            font-size: 12px
+            font-weight: 500
+
+        span
+            font-size: 11px
+
+        strong
+            font-size: 16px
+            margin-top: 15px
+            margin-bottom: -24px
+            margin-left: 60px
+            font-weight: 600
+
+
+    &__button
+        background: #FF6900
+        color: #FFFFFF
+        border: none
+        padding: 50px 35px
+        display: flex
+        align-items: center
+        gap: 8px
+        font-size: 14px
+        cursor: pointer
+        box-shadow: 0 2px 4px rgb(0 0 0 / 27%)
+        cursor: pointer
+        &:hover
+            background: darken(#FF6900, 2%)
+            transform: translateY(-1px)
+
+
+        img
+            width: 20px
+
+
+
+
+.help-chat
+    position: absolute
+    right: 60px
+    bottom: -100%
+    width: 70px
+    height: 70px
+    background: #ffffff
+    border-radius: 50%
+    
+    display: flex
+    align-items: center
+    justify-content: center
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2)
+    cursor: pointer
+
+    img
+        width: 40px
+        height: 40px
